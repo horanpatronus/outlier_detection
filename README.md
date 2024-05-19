@@ -24,9 +24,15 @@ Tutorial jalanin program:
    ~/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic anomalies --from-beginning
 
 7. Jalanin producer dan outlier detector
+   
    a) masuk ke folder streaming
+
       cd streaming
+
    b) jalanin outlier detector
+
       python kafka.py
+
    c) jalanin producer
+
       python producer.py
