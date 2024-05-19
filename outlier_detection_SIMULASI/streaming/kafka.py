@@ -16,7 +16,7 @@ def detect():
     window = []
     ISB = []
     outlier_list = []
-    R = distance_chebyshev / 4
+    R = distance_chebyshev / 6
     k = 3
     i = 0
 
